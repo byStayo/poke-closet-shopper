@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Closet Shopper",
+    "slug": "closet-shopper-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "closetshopper",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "primaryColor": "#4fb8b2",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "site.poke.stelios.closetshopper",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "site.poke.stelios.closetshopper"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
