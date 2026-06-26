@@ -15,6 +15,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: config.name ?? 'Closet Shopper',
   slug: config.slug ?? 'closet-shopper-app',
+  plugins: [...(config.plugins ?? []), 'expo-asset'],
   extra: {
     ...config.extra,
     webUrl: process.env.EXPO_PUBLIC_WEB_URL ?? DEFAULT_WEB_URL,

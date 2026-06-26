@@ -20,6 +20,18 @@
     },
     "web": {
       "bundler": "metro"
+    },
+    "extra": {
+      "webUrl": "https://closet-shopper-app.stelios.poke.site",
+      "eas": {
+        "projectId": "213a9dd6-3271-4b35-929e-664375331347"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/213a9dd6-3271-4b35-929e-664375331347"
     }
   }
 }
